@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Site d'assurance automobile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width ,initial-scale-1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+     <div class="container">
+         <div class="row ">
+            <h1>Bienvenue sur notre site d'assurance automobile :</h1>
+             <div class="col-sm 3 mx-auto mt-5 text center">
+                <div class="mb-3">
+                    <label for="age" class="form-label">Saisissez votre age :</label>
+                    <input type="number" class="form-control" id="age" aria-describedby="age">
+                </div>
+                <div class="mb-3">
+                    <label for="permis" class="form-label">Saisissez votre nombre d'année de permis :</label>
+                    <input type="number" class="form-control" id="permis" aria-describedby="permis">
+                </div>
+                <div class="mb-3">
+                    <label for="fidelite" class="form-label">Saisissez vos années de fidélité :</label>
+                    <input type="number" class="form-control" id="fidelite" aria-describedby="fidelite">
+                </div>
+                <div class="mb-3">
+                    <label for="accident" class="form-label">Saisissez votre nombre d'accidents :</label>
+                    <input type="number" class="form-control" id="accident" aria-describedby="accident">
+                </div>
+                <div class="mb-5">
+                <button type="submit" id="button" class="btn btn primary mt-5 ,">Valider</button>
+             </div>
+             <div class="row">
+                <div class="col-sm-3 mx-auto mt-5 text-center">
+                    <div id="message"></div>
+                </div>
+             </div>
+       </div>
+    </body>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</html>
